@@ -8,17 +8,17 @@ With this ,the search is restricted and performs better since has a smaller json
 
 # APPLICATION BUILDING BLOCKS
 
-*FoodTruckService that encapsulates the application's business logic.
+* FoodTruckService that encapsulates the application's business logic.
 
-*DTOs (FoodTruck,HTTPResponse) to simplify manipulation of HTTP response data by not having to use structure-specific APIs (i.e., for JSON, XML, etc.)
+* DTOs (FoodTruck,HTTPResponse) to simplify manipulation of HTTP response data by not having to use structure-specific APIs (i.e., for JSON, XML, etc.)
 
-*Utility classes
+* Utility classes
 
-    *HTTPRequest class to execute the HTTP Request , control transactions and coordinating responses to HTTPResponse DTO
-    *A DateTimeProvider interface that provides a way to create LocalDateTime object, now() method  can be overridden to provide any localtime , thus making the    program testable.
-   *An AppProperties class to handle de reading of properties such as apptoke,baseurl,pagination pagesize defined in app.properties
+    * HTTPRequest class to execute the HTTP Request , control transactions and coordinating responses to HTTPResponse DTO
+    * A DateTimeProvider interface that provides a way to create LocalDateTime object, now() method  can be overridden to provide any localtime , thus making the    program testable.
+   * An AppProperties class to handle de reading of properties such as apptoke,baseurl,pagination pagesize defined in app.properties
 
-4.- A App main program in charge of the command line printing logic.
+*.- A App main program in charge of the command line printing logic.
 
 
 ## HOW TO RUN ON OSx
