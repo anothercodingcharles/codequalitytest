@@ -14,10 +14,9 @@ With this ,the search is restricted and performs better since has a smaller json
 
 * Utility classes/interfaces
 
-    * HTTPRequest class to execute the HTTP Request and coordinate responses to HTTPResponse DTO class.
+    * HTTPRequest class to execute requests and coordinate responses to HTTPResponse DTO class.
     * DateTimeProvider interface that provides a way to create a LocalDateTime object using now() method. now() can be overridden to provide any localtime , thus   making the program testable.
     *  AppProperties class to handle de reading of properties such as apptoke, baseurl, pagesize defined in app.properties
-
     * An App main program in charge of the command line printing logic.
 
 
