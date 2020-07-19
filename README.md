@@ -25,7 +25,7 @@ With this ,the search is restricted and performs better since has a smaller json
  Download the source folder from the repo.
  
 ### REQUIREMENTS 
-   Java required (Code is written in Java 8) 
+Java required (Code is written in Java 8) 
    
     if not installed download corresponding JDK from https://www.oracle.com/mx/java/technologies/javase/javase-jdk8-downloads.html 
    
@@ -33,7 +33,7 @@ With this ,the search is restricted and performs better since has a smaller json
            Maven dependency tool manager was used. Maven is a Java tool, so you must have Java installed in order to proceed.
           
            
-           if not installed download Maven https://maven.apache.org/download.cgi 
+    if not installed download Maven https://maven.apache.org/download.cgi 
            and follow installation instructions https://maven.apache.org/install.html
            
 ### RUN OSX
