@@ -8,35 +8,37 @@ With this ,the search is restricted and performs better since has a smaller json
 
 # APPLICATION BUILDING BLOCKS
 
-* FoodTruckService that encapsulates the application's business logic.
+* FoodTruckService class that encapsulates the application's business logic.
 
-* DTOs (FoodTruck,HTTPResponse) to simplify manipulation of HTTP response data by not having to use structure-specific APIs (i.e., for JSON, XML, etc.)
+* FoodTruck and HTTPResponse DTO (Data Transfer Object) classes to simplify manipulation of HTTP response data by not having to use structure-specific APIs (i.e., for JSON, XML, etc.)
 
-* Utility classes
+* Utility classes/interfaces
 
-    * HTTPRequest class to execute the HTTP Request , control transactions and coordinating responses to HTTPResponse DTO
-    * A DateTimeProvider interface that provides a way to create LocalDateTime object, now() method  can be overridden to provide any localtime , thus making the    program testable.
-   * An AppProperties class to handle de reading of properties such as apptoke,baseurl,pagination pagesize defined in app.properties
+    * HTTPRequest class to execute the HTTP Request and coordinate responses to HTTPResponse DTO class.
+    * DateTimeProvider interface that provides a way to create a LocalDateTime object using now() method. now() can be overridden to provide any localtime , thus   making the program testable.
+    *  AppProperties class to handle de reading of properties such as apptoke, baseurl, pagesize defined in app.properties
 
-* A App main program in charge of the command line printing logic.
+    * An App main program in charge of the command line printing logic.
 
 
-## HOW TO RUN ON OSx
 
 ### INSTALLATION
- Download the source folder from the repo  and then change to the folder directory in your command line. 
+ Download the source folder from the repo.
+ 
 ### REQUIREMENTS 
    Java required (Code is written in Java 8) 
-    
-    Head to https://www.oracle.com/mx/java/technologies/javase/javase-jdk8-downloads.html and dowload JDK
-   Projects is ready to run but, in case you want to build the project on your own 
-           Maven is used. Maven is a Java tool, so you must have Java installed in order to proceed.
+   
+    if not installed download corresponding JDK from https://www.oracle.com/mx/java/technologies/javase/javase-jdk8-downloads.html 
+   
+   The project is ready to run but, in case you want to build the project on your own 
+           Maven dependency tool manager was used. Maven is a Java tool, so you must have Java installed in order to proceed.
           
            
-           download Maven https://maven.apache.org/download.cgi 
-           follow installation instructions https://maven.apache.org/install.html
-### RUN
-   In order to run the application, download the folder and then change to the folder directory in your command line.
+           if not installed download Maven https://maven.apache.org/download.cgi 
+           and follow installation instructions https://maven.apache.org/install.html
+           
+### RUN OSX
+   In order to run the application, download the folder and then cd to the folder directory in your command line.
      You may test the compiled and packaged JAR with the following command:
     
       java -cp target/FoodTruckFinder-1.0-SNAPSHOT.jar com.oraclemdc.foodtruckfinder.FoodTruckFinder
