@@ -1,5 +1,8 @@
 
+
 ### WRITE UP - THOUGHT PROCESS
+
+
 1.- Read, analyze and understand document requirements.
 
 2.- Getting familiar with the San Francisco API, and dataset fields representation
