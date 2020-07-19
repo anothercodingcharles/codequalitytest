@@ -18,7 +18,7 @@ With this ,the search is restricted and performs better since has a smaller json
     * A DateTimeProvider interface that provides a way to create LocalDateTime object, now() method  can be overridden to provide any localtime , thus making the    program testable.
    * An AppProperties class to handle de reading of properties such as apptoke,baseurl,pagination pagesize defined in app.properties
 
-*.- A App main program in charge of the command line printing logic.
+* A App main program in charge of the command line printing logic.
 
 
 ## HOW TO RUN ON OSx
