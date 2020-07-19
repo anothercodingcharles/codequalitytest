@@ -39,7 +39,8 @@ With this ,the search is restricted and performs better since has a smaller json
    In order to run the application, download the folder and then change to the folder directory in your command line.
      You may test the compiled and packaged JAR with the following command:
     
-     java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+      java -cp /FoodTruckFinder-1.0-SNAPSHOT.jar com.oraclemdc.foodtruckfinder.FoodTruckFinder
+
 
 ### BUILD 
    Execute the following command. This will generate a .jar file under /target.
